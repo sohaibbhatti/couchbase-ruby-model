@@ -39,7 +39,7 @@ module Rails #:nodoc:
         config.respond_to?(:app_generators) ? :app_generators : :generators
       end
 
-      # Maping of rescued exceptions to HTTP responses
+      # Mapping of rescued exceptions to HTTP responses
       #
       # @since 0.1.0
       #
